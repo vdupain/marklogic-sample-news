@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<es:job-bag xmlns:es="http://www.marklogic.com/enhanced-search#">
-   <html xmlns="http://www.w3.org/1999/xhtml"
-         xmlns:og="http://opengraphprotocol.org/schema/"
-         xmlns:rnews="http://iptc.org/std/rNews/2011-10-07#"
-         xmlns:c="http://www.w3.org/ns/xproc-step"
-         xml:lang="en-GB"
-         xml:base="http://www.bbc.co.uk">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:rnews="http://iptc.org/std/rNews/2011-10-07#"
+      xmlns:c="http://www.w3.org/ns/xproc-step"
+      xmlns:es="http://www.marklogic.com/enhanced-search#"
+      xml:lang="en-GB"
+      xml:base="http://www.bbc.co.uk">
       <head profile="http://dublincore.org/documents/dcq-html/"
-            resource="http://www.bbc.co.uk/news/business-23235415"
-            typeof="rnews:NewsItem">
+         resource="http://www.bbc.co.uk/news/business-23235415"
+         typeof="rnews:NewsItem">
          <meta property="rnews:description"
-               content="Greece secures 6.8bn euros in further funding from its creditors, but is told the pace of reform is too slow."/>
+            content="Greece secures 6.8bn euros in further funding from its creditors, but is told the pace of reform is too slow."/>
          <meta property="rnews:datePublished" content="2013-07-08T20:33:33"/>
          <meta property="rnews:thumbnailUrl"
-               content="http://news.bbcimg.co.uk/media/images/68619000/jpg/_68619699_greekwomanatdemo8thjuly2013.jpg"/>
+            content="http://news.bbcimg.co.uk/media/images/68619000/jpg/_68619699_greekwomanatdemo8thjuly2013.jpg"/>
          <meta property="rnews:headline" content="Greece secures more bailout funding"/>
          <meta name="CPS_SECTION_PATH" content="Business"/>
          <meta property="rnews:creator" content="http://www.bbc.co.uk#org"/>
          <link rel="copyright"
-               href="http://www.bbc.co.uk/terms/"
-               title="Terms of Use"/>
+            href="http://www.bbc.co.uk/terms/"
+            title="Terms of Use"/>
          <link rel="http://purl.org/dc/terms/source"
-               href="http://www.bbc.co.uk/news/business-23235415"/>
+            href="http://www.bbc.co.uk/news/business-23235415"/>
          <title>BBC News - Greece secures a further 6.8bn euros of bailout
 funds</title>
       </head>
@@ -37,9 +37,9 @@ at</span>
 bailout funds</h1>
             <div class="caption body-narrow-width">
                <img src="http://news.bbcimg.co.uk/media/images/68619000/jpg/_68619693_greekwomanatdemo8thjuly2013.jpg"
-                    width="304"
-                    height="171"
-                    alt="A woman cries during a demonstration of municipal workers in front of the Interior ministry in Athens on July 8, 2013."/>
+                 width="304"
+                 height="171"
+                 alt="A woman cries during a demonstration of municipal workers in front of the Interior ministry in Athens on July 8, 2013."/>
                <span style="width:304px;">Troubled times in Greece</span>
             </div>
             <p class="introduction">Greece has passed
@@ -85,25 +85,25 @@ crisis</a>
                <ul>
                   <li>
                      <a class="story"
-                        rel="published-1365204978521"
-                        href="/news/magazine-22042727">Bank staff fear for jobs and
+                     rel="published-1365204978521"
+                     href="/news/magazine-22042727">Bank staff fear for jobs and
 savings</a>
                   </li>
                   <li>
                      <a class="story"
-                        rel="published-1365030846536"
-                        href="/news/business-22002153">Is Cyprus's euro membership
+                     rel="published-1365030846536"
+                     href="/news/business-22002153">Is Cyprus's euro membership
 viable?</a>
                   </li>
                   <li>
                      <a class="story"
-                        rel="published-1364205392214"
-                        href="/news/business-21922110">Q&amp;A: Cyprus deal</a>
+                     rel="published-1364205392214"
+                     href="/news/business-21922110">Q&amp;A: Cyprus deal</a>
                   </li>
                   <li>
                      <a class="story"
-                        rel="published-1363964556893"
-                        href="/news/world-21899515">German gamble</a>
+                     rel="published-1363964556893"
+                     href="/news/world-21899515">German gamble</a>
                   </li>
                </ul>
             </div>
@@ -113,7 +113,7 @@ viable?</a>
             <div class="byline">
                <span class="byline-picture">
                   <img src="http://news.bbcimg.co.uk/media/images/56625000/jpg/_56625363_007363121-1.jpg"
-                       alt="image of Mark Lowen"/>
+                    alt="image of Mark Lowen"/>
                </span>
                <span class="byline-name">Mark
 Lowen</span>
@@ -133,27 +133,3 @@ basis. And nobody yet has answers for the long-term.</p>
          </div>
       </body>
    </html>
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:og="http://opengraphprotocol.org/schema/"
-            xmlns:rnews="http://iptc.org/std/rNews/2011-10-07#">
-      <rdf:Description rdf:about="http://www.bbc.co.uk/news/business-23235415">
-         <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#NewsItem"/>
-         <rnews:identifier rdf:resource="http://www.bbc.co.uk/news/business-23235415"/>
-         <rnews:usageTerms rdf:resource="http://www.bbc.co.uk/terms/"/>
-         <rnews:description xml:lang="en-GB">Greece secures 6.8bn euros in further funding from its creditors, but is told the pace of reform is too slow.</rnews:description>
-         <rnews:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-08T20:33:33</rnews:datePublished>
-         <rnews:thumbnailUrl rdf:resource="http://news.bbcimg.co.uk/media/images/68619000/jpg/_68619699_greekwomanatdemo8thjuly2013.jpg"/>
-         <rnews:headline xml:lang="en-GB">Greece secures more bailout funding</rnews:headline>
-         <rnews:articleSection rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business</rnews:articleSection>
-         <rnews:creator rdf:resource="http://www.bbc.co.uk#org"/>
-      </rdf:Description>
-      <rdf:Description rdf:about="http://news.bbcimg.co.uk/media/images/68619000/jpg/_68619693_greekwomanatdemo8thjuly2013.jpg">
-         <rdf:type rdf:resource="http://iptc.org/std/rNews/2011-10-07#ImageObject"/>
-         <rnews:associatedArticle rdf:resource="http://www.bbc.co.uk/news/business-23235415"/>
-         <rnews:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</rnews:width>
-         <rnews:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171</rnews:height>
-         <rnews:description xml:lang="en-GB">A woman cries during a demonstration of municipal workers in front of the Interior ministry in Athens on July 8, 2013.</rnews:description>
-         <rnews:encodingFormat rdf:resource="http://cv.iptc.org/newscodes/format/JPEG_Baseline"/>
-      </rdf:Description>
-   </rdf:RDF>
-</es:job-bag>
