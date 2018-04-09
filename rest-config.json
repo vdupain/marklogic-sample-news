@@ -1,0 +1,8 @@
+{
+  "rest-api": {
+    "name": "8011-news-rest",
+    "database": "news",
+    "port": "8011"
+  }
+}
+

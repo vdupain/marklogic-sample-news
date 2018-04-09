@@ -1,0 +1,5 @@
+<rest-api xmlns="http://marklogic.com/rest-api">
+  <name>8011-news-rest</name>
+  <database>news</database>
+  <port>8011</port>
+</rest-api>

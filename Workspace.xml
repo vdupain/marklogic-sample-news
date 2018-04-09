@@ -1,0 +1,34 @@
+<export><workspace name="Workspace"><query name="Query 1" focus="false" listorder="1" taborder="1" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="xquery">xquery version "1.0-ml";
+cts:search(fn:doc(), "nuclear")[1 to 10]</query><query name="Query 2" focus="false" listorder="2" taborder="2" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="xquery">xquery version "1.0-ml";
+declare namespace ns = "http://www.w3.org/1999/xhtml";
+
+for $doc in cts:search(fn:doc(), "nuclear")[1 to 10]
+return $doc//ns:title/text()</query><query name="Query 3" focus="false" listorder="3" taborder="3" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="xquery">xquery version "1.0-ml";
+
+declare namespace ns = "http://www.w3.org/1999/xhtml";
+
+for $title in cts:search(fn:doc()//ns:title, "nuclear")[1 to 10]
+return $title/text()</query><query name="Query 4" focus="false" listorder="4" taborder="4" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="javascript">'use strict';
+
+fn.subsequence(cts.search('nuclear'), 1, 10);</query><query name="Query 5" focus="false" listorder="5" taborder="5" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="javascript">'use strict';
+var namespace = 'http://www.w3.org/1999/xhtml';
+var documents = cts.search('nuclear');
+
+var results = [];
+for (var document of documents) {
+  var node = document.root;
+  var title = node.xpath("//ns:title/text()", {ns:namespace}).toString().replace(/\r?\n|\r/g, " ");
+  results.push(title);                                                                                
+}
+results</query><query name="Query 6" focus="false" listorder="6" taborder="6" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="xquery">xquery version "1.0-ml";
+import module namespace search = "http://marklogic.com/appservices/search"
+  at "/MarkLogic/appservices/search/search.xqy";
+
+search:search("nuclear")</query><query name="Query 7" focus="true" listorder="7" taborder="7" active="true" database="11558217853808947313" server="9919445602670017311" database-name="news" server-name="8011-news-rest" mode="javascript">'use strict';
+
+var sr = require('/MarkLogic/jsearch.sjs');
+var output =
+      sr.documents()
+      .where(cts.jsonPropertyValueQuery('city', 'london'))
+      .result();
+output;</query></workspace></export>
