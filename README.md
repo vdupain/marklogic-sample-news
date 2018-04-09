@@ -8,11 +8,11 @@ curl --anyauth --user admin:admin -X POST -d@"rest-config.json" -i -H "Content-t
 # MLCP load
 ```
 ./mlcp.sh import -host localhost -port 8011 -username admin -password admin \
-     -input_file_path $HOME/dev/marklogic-samples/news/data \
+     -input_file_path $HOME/dev/marklogic-samples/marklogic-sample-news/data \
      -mode local \
      -input_file_type documents \
      -output_collections "http://www.bbc.co.uk/news/content" \
-     -output_uri_replace "$HOME/dev/marklogic-samples/news/data, 'content/news'"
+     -output_uri_replace "$HOME/dev/marklogic-samples/marklogic-sample-news/data, 'content/news'"
 ```
 
 # Searching a database
